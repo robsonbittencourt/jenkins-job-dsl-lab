@@ -24,10 +24,8 @@ class JobHelper {
 	}
 
 	public static Job addGradleStep(Job job, String step) {
-		job() {
-			steps {
-				gradle { tasks(step) }
-			}
+		job.steps {
+			gradle { tasks(step) }
 		}
 		job
 	}
