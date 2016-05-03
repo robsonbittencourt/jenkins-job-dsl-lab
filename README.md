@@ -4,7 +4,7 @@ Projeto para testar a job-dsl do Jenkins
 
 ### Como utilizar
 
-* Instale o Jenkins ou use um previsamente instalado
+* Instale o Jenkins ou use um previamente instalado
 * Instale os seguintes plugins: Git plugin, Gradle plugin e Job DSL
 * Crie um job chamado *Seed Job* com a seguinte estrutura
 * Gerenciamento de código fonte → url: `git@github.com:robsonbittencourt/jenkins-job-dsl-lab.git`
@@ -13,8 +13,11 @@ Projeto para testar a job-dsl do Jenkins
 * Invoke Gradle script → Tasks: `clean test`
 * Process Job DSLs → DSL Scripts: `dsl/*/*.groovy`
 * Process Job DSLs → Additional classpath: `src/main/groovy`
+* Execute este job
+ 
+Irá ser criado automágicamente um job para o build deste próprio projeto.
 
-### Material de apoio
+### Mais informações e material de apoio
 
 * [Repositório oficial](https://github.com/jenkinsci/job-dsl-plugin)
 * [Wiki](https://github.com/jenkinsci/job-dsl-plugin/wiki)
