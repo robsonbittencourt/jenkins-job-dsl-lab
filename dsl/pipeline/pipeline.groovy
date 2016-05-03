@@ -1,6 +1,6 @@
 import javaposse.jobdsl.dsl.views.DeliveryPipelineView.Sorting
 
-('Dummy Pipeline Example') {
+deliveryPipelineView('Dummy Pipeline Example') {
 	pipelineInstances(5)
 	columns(1)
 	sorting(Sorting.LAST_ACTIVITY)
